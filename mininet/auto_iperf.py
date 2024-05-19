@@ -73,21 +73,21 @@ def customNet():
 
     info('\n _____ h1 h2 h3 Initialize the iperf3 server ____ \n')
     # Chạy iperfs.py trên h1, h2, h3
-    h1.cmd('python3 Project/tb/tb_iperf/iperfs.py &')
-    h2.cmd('python3 Project/tb/tb_iperf/iperfs.py &')
-    h3.cmd('python3 Project/tb/tb_iperf/iperfs.py &')
+    h1.cmd('python3 SDN_LoadBalancing/tb/tb_iperf/iperfs.py &')
+    h2.cmd('python3 SDN_LoadBalancing/tb/tb_iperf/iperfs.py &')
+    h3.cmd('python3 SDN_LoadBalancing/tb/tb_iperf/iperfs.py &')
 
     # Ánh xạ host với file script tương ứng
     host_script_map = {
-        h4: 'Project/tb/tb_iperf/iperfc.py 10.0.0.100 5001 7',
-        h5: 'Project/tb/tb_iperf/iperfc.py 10.0.0.100 5002 7',
-        h6: 'Project/tb/tb_iperf/iperfc.py 10.0.0.100 5003 7'
-        # # h7: 'Project/tb/tb_iperf/iperfc.py 10.0.0.100 5004 7',
-        # # h8: 'Project/tb/tb_iperf/iperfc.py 10.0.0.100 5005 7',
-        # # h9: 'Project/tb/tb_iperf/iperfc.py 10.0.0.100 5006 7',
-        # h10: 'Project/tb/tb_iperf/iperfc.py 10.0.0.100 5007 7',
-        # h11: 'Project/tb/tb_iperf/iperfc.py 10.0.0.100 5008 7',
-        # h12: 'Project/tb/tb_iperf/iperfc.py 10.0.0.100 5009 7'
+        h4: 'SDN_LoadBalancing/tb/tb_iperf/iperfc.py 10.0.0.100 5001 7',
+        h5: 'SDN_LoadBalancing/tb/tb_iperf/iperfc.py 10.0.0.100 5002 7',
+        h6: 'SDN_LoadBalancing/tb/tb_iperf/iperfc.py 10.0.0.100 5003 7'
+        # # h7: 'SDN_LoadBalancing/tb/tb_iperf/iperfc.py 10.0.0.100 5004 7',
+        # # h8: 'SDN_LoadBalancing/tb/tb_iperf/iperfc.py 10.0.0.100 5005 7',
+        # # h9: 'SDN_LoadBalancing/tb/tb_iperf/iperfc.py 10.0.0.100 5006 7',
+        # h10: 'SDN_LoadBalancing/tb/tb_iperf/iperfc.py 10.0.0.100 5007 7',
+        # h11: 'SDN_LoadBalancing/tb/tb_iperf/iperfc.py 10.0.0.100 5008 7',
+        # h12: 'SDN_LoadBalancing/tb/tb_iperf/iperfc.py 10.0.0.100 5009 7'
     }
     time.sleep(3)
 
