@@ -41,42 +41,42 @@ This project implements a Load Balancing solution using Mininet and Ryu Controll
     cd SDN_LoadBalancing
     ```
 
-2. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. Set up Mininet and Ryu Controller following their respective installation guides:
+2. Set up Mininet and Ryu Controller following their respective installation guides:
     - [Mininet Installation Guide](http://mininet.org/download/)
     - [Ryu Controller Installation Guide](https://ryu.readthedocs.io/en/latest/getting_started.html)
 ## Usage
 
 ### Scenario 1: With Load Balancing
 
-#### Starting the Mininet Topology
-
-1. Navigate to the `mininet` directory:
-    ```bash
-    cd mininet
-    ```
-
-2. Run the Mininet topology script:
-    ```bash
-    sudo python your_topology_script_with_lb.py
-    ```
-
 #### Running the Ryu Controller with Load Balancing
 
 1. Navigate to the `lb_core` directory:
     ```bash
-    cd ../lb_core
+    cd lb_core
     ```
 
 2. Start the Ryu Controller with the load balancing application:
     ```bash
-    ryu-manager your_lb_app.py
+    ryu-manager lb_final.py
     ```
 
+#### Starting the Mininet Topology
+
+1. Navigate to the `mininet` directory:
+    ```bash
+    cd ../mininet
+    ```
+
+2. Run the Mininet topology script:
+2.1 If you want automated performance testing with the iperf3:
+    ```bash
+    sudo python3 auto_iperf.py
+    ```
+2.2 If you want to test performance manually with your own tool:
+    ```bash
+    sudo python3 manual_test.py
+    ```
+    
 ### Scenario 2: Without Load Balancing
 
 #### Starting the Mininet Topology
