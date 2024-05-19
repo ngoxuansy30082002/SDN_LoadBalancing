@@ -1,0 +1,256 @@
+{
+    "OFPPortStatsReply": {
+       "body": [
+          {
+             "OFPPortStats": {
+                "collisions": 0,
+                "duration_nsec": 974000000,
+                "duration_sec": 2,
+                "port_no": 11,
+                "rx_bytes": 0,
+                "rx_crc_err": 0,
+                "rx_dropped": 0,
+                "rx_errors": 0,
+                "rx_frame_err": 0,
+                "rx_over_err": 0,
+                "rx_packets": 0,
+                "tx_bytes": 0,
+                "tx_dropped": 0,
+                "tx_errors": 0,
+                "tx_packets": 0
+             }
+          },
+          {
+             "OFPPortStats": {
+                "collisions": 0,
+                "duration_nsec": 964000000,
+                "duration_sec": 2,
+                "port_no": 4294967294,
+                "rx_bytes": 0,
+                "rx_crc_err": 0,
+                "rx_dropped": 0,
+                "rx_errors": 0,
+                "rx_frame_err": 0,
+                "rx_over_err": 0,
+                "rx_packets": 0,
+                "tx_bytes": 0,
+                "tx_dropped": 0,
+                "tx_errors": 0,
+                "tx_packets": 0
+             }
+          },
+          {
+             "OFPPortStats": {
+                "collisions": 0,
+                "duration_nsec": 979000000,
+                "duration_sec": 2,
+                "port_no": 10,
+                "rx_bytes": 0,
+                "rx_crc_err": 0,
+                "rx_dropped": 0,
+                "rx_errors": 0,
+                "rx_frame_err": 0,
+                "rx_over_err": 0,
+                "rx_packets": 0,
+                "tx_bytes": 0,
+                "tx_dropped": 0,
+                "tx_errors": 0,
+                "tx_packets": 0
+             }
+          },
+          {
+             "OFPPortStats": {
+                "collisions": 0,
+                "duration_nsec": 978000000,
+                "duration_sec": 2,
+                "port_no": 8,
+                "rx_bytes": 0,
+                "rx_crc_err": 0,
+                "rx_dropped": 0,
+                "rx_errors": 0,
+                "rx_frame_err": 0,
+                "rx_over_err": 0,
+                "rx_packets": 0,
+                "tx_bytes": 0,
+                "tx_dropped": 0,
+                "tx_errors": 0,
+                "tx_packets": 0
+             }
+          },
+          {
+             "OFPPortStats": {
+                "collisions": 0,
+                "duration_nsec": 973000000,
+                "duration_sec": 2,
+                "port_no": 5,
+                "rx_bytes": 0,
+                "rx_crc_err": 0,
+                "rx_dropped": 0,
+                "rx_errors": 0,
+                "rx_frame_err": 0,
+                "rx_over_err": 0,
+                "rx_packets": 0,
+                "tx_bytes": 0,
+                "tx_dropped": 0,
+                "tx_errors": 0,
+                "tx_packets": 0
+             }
+          },
+          {
+             "OFPPortStats": {
+                "collisions": 0,
+                "duration_nsec": 978000000,
+                "duration_sec": 2,
+                "port_no": 9,
+                "rx_bytes": 0,
+                "rx_crc_err": 0,
+                "rx_dropped": 0,
+                "rx_errors": 0,
+                "rx_frame_err": 0,
+                "rx_over_err": 0,
+                "rx_packets": 0,
+                "tx_bytes": 0,
+                "tx_dropped": 0,
+                "tx_errors": 0,
+                "tx_packets": 0
+             }
+          },
+          {
+             "OFPPortStats": {
+                "collisions": 0,
+                "duration_nsec": 978000000,
+                "duration_sec": 2,
+                "port_no": 12,
+                "rx_bytes": 0,
+                "rx_crc_err": 0,
+                "rx_dropped": 0,
+                "rx_errors": 0,
+                "rx_frame_err": 0,
+                "rx_over_err": 0,
+                "rx_packets": 0,
+                "tx_bytes": 0,
+                "tx_dropped": 0,
+                "tx_errors": 0,
+                "tx_packets": 0
+             }
+          },
+          {
+             "OFPPortStats": {
+                "collisions": 0,
+                "duration_nsec": 972000000,
+                "duration_sec": 2,
+                "port_no": 1,
+                "rx_bytes": 0,
+                "rx_crc_err": 0,
+                "rx_dropped": 0,
+                "rx_errors": 0,
+                "rx_frame_err": 0,
+                "rx_over_err": 0,
+                "rx_packets": 0,
+                "tx_bytes": 0,
+                "tx_dropped": 0,
+                "tx_errors": 0,
+                "tx_packets": 0
+             }
+          },
+          {
+             "OFPPortStats": {
+                "collisions": 0,
+                "duration_nsec": 972000000,
+                "duration_sec": 2,
+                "port_no": 6,
+                "rx_bytes": 0,
+                "rx_crc_err": 0,
+                "rx_dropped": 0,
+                "rx_errors": 0,
+                "rx_frame_err": 0,
+                "rx_over_err": 0,
+                "rx_packets": 0,
+                "tx_bytes": 0,
+                "tx_dropped": 0,
+                "tx_errors": 0,
+                "tx_packets": 0
+             }
+          },
+          {
+             "OFPPortStats": {
+                "collisions": 0,
+                "duration_nsec": 982000000,
+                "duration_sec": 2,
+                "port_no": 7,
+                "rx_bytes": 0,
+                "rx_crc_err": 0,
+                "rx_dropped": 0,
+                "rx_errors": 0,
+                "rx_frame_err": 0,
+                "rx_over_err": 0,
+                "rx_packets": 0,
+                "tx_bytes": 0,
+                "tx_dropped": 0,
+                "tx_errors": 0,
+                "tx_packets": 0
+             }
+          },
+          {
+             "OFPPortStats": {
+                "collisions": 0,
+                "duration_nsec": 978000000,
+                "duration_sec": 2,
+                "port_no": 4,
+                "rx_bytes": 0,
+                "rx_crc_err": 0,
+                "rx_dropped": 0,
+                "rx_errors": 0,
+                "rx_frame_err": 0,
+                "rx_over_err": 0,
+                "rx_packets": 0,
+                "tx_bytes": 0,
+                "tx_dropped": 0,
+                "tx_errors": 0,
+                "tx_packets": 0
+             }
+          },
+          {
+             "OFPPortStats": {
+                "collisions": 0,
+                "duration_nsec": 981000000,
+                "duration_sec": 2,
+                "port_no": 2,
+                "rx_bytes": 0,
+                "rx_crc_err": 0,
+                "rx_dropped": 0,
+                "rx_errors": 0,
+                "rx_frame_err": 0,
+                "rx_over_err": 0,
+                "rx_packets": 0,
+                "tx_bytes": 0,
+                "tx_dropped": 0,
+                "tx_errors": 0,
+                "tx_packets": 0
+             }
+          },
+          {
+             "OFPPortStats": {
+                "collisions": 0,
+                "duration_nsec": 974000000,
+                "duration_sec": 2,
+                "port_no": 3,
+                "rx_bytes": 0,
+                "rx_crc_err": 0,
+                "rx_dropped": 0,
+                "rx_errors": 0,
+                "rx_frame_err": 0,
+                "rx_over_err": 0,
+                "rx_packets": 0,
+                "tx_bytes": 0,
+                "tx_dropped": 0,
+                "tx_errors": 0,
+                "tx_packets": 0
+             }
+          }
+       ],
+       "flags": 0,
+       "type": 4
+    }
+ }
+ 
