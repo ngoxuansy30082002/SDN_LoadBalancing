@@ -1,6 +1,10 @@
-# Load Balancing using Mininet and Ryu Controller
+# Load Balancing base on throughput using Mininet and Ryu Controller
 
 ## Project Team
+
+❤️ Thank you for the contributions of all the members ❤️
+
+
 
 | **Name**          | **Role**                | **Contact**              |
 |-------------------|-------------------------|--------------------------|
