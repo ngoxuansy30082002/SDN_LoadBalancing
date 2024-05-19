@@ -65,7 +65,7 @@ This project implements a Load Balancing solution using Mininet and Ryu Controll
 
 #### Starting the Mininet Topology
 
-1. Create a new terminal window and navigate to the `mininet` directory:
+1. Create a new terminal window:
     ```bash
     cd ..
     ```
@@ -97,7 +97,7 @@ This project implements a Load Balancing solution using Mininet and Ryu Controll
 
 #### Starting the Mininet Topology
 
-1. Create a new terminal window and navigate to the `mininet` directory:
+1. Create a new terminal window:
     ```bash
     cd ..
     ```
