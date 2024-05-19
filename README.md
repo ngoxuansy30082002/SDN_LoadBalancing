@@ -67,18 +67,18 @@ This project implements a Load Balancing solution using Mininet and Ryu Controll
 
 1. Create a new terminal window and navigate to the `mininet` directory:
     ```bash
-    cd ../mininet
+    cd ..
     ```
 
 2. Run the Mininet topology script:
 
     2.1. If you want automated performance testing with the iperf3:
     ```bash
-    sudo python3 auto_iperf.py
+    sudo python3 mininet/auto_iperf.py
     ```
     2.2. If you want to test performance manually with your own tool:
     ```bash
-    sudo python3 manual_test.py
+    sudo python3 mininet/manual_test.py
     ```
 
 ### Scenario 2: Without Load Balancing
@@ -99,18 +99,18 @@ This project implements a Load Balancing solution using Mininet and Ryu Controll
 
 1. Create a new terminal window and navigate to the `mininet` directory:
     ```bash
-    cd ../mininet
+    cd ..
     ```
 
 2. Run the Mininet topology script:
     
     2.1. If you want automated performance testing with the iperf3:
     ```bash
-    sudo python3 auto_iperf.py
+    sudo python3 mininet/auto_iperf.py
     ```
     2.2. If you want to test performance manually with your own tool:
     ```bash
-    sudo python3 manual_test.py
+    sudo python3 mininet/manual_test.py
     ```
 
 ### Generating Traffic and Viewing Results
