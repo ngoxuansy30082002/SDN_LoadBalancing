@@ -6,12 +6,12 @@
 
 
 
-| **Name**          | **Role**                | **Contact**              |
-|-------------------|-------------------------|--------------------------|
-| ![Member1](https://via.placeholder.com/30) **Member 1** | Project Leader          | [member1@example.com](mailto:member1@example.com) |
-| ![Member2](https://via.placeholder.com/30) **Member 2** | Developer               | [member2@example.com](mailto:member2@example.com) |
-| ![Member3](https://via.placeholder.com/30) **Member 3** | Network Specialist      | [member3@example.com](mailto:member3@example.com) |
-| ![Member4](https://via.placeholder.com/30) **Member 4** | Tester                  | [member4@example.com](mailto:member4@example.com) |
+| **Name**              | **Class**               | **StudentCode**          |
+|-------------------    |-------------------------|--------------------------|
+| **Trần Hồng Khải**    | 20KTMT1                 | 106200231                |
+| **Ngô Xuân Sỹ**       | 20KTMT1                 | 106200244                |
+| **Trần Đình Thi**     | 20KTKT1                 | 106200246                |
+| **Nguyễn Đức Hoàng**  | 20KTMT1                 | 106200261                |
 
 ---
 
@@ -24,21 +24,21 @@ This project implements a Load Balancing solution using Mininet and Ryu Controll
 - **lb_core**: Contains the core load balancing logic and implementation.
 - **mininet**: Includes scripts and configurations for setting up the Mininet environment.
 - **result**: Stores the results and logs generated from running the simulations.
-- **tb**: (Provide a brief description of what this directory contains, e.g., testing and benchmarking scripts).
+- **tb**: Testing and benchmarking scripts.
 
 ## Prerequisites
 
 - Python 3.x
 - Mininet
 - Ryu Controller
-- Other dependencies listed in `requirements.txt` (if you have one)
+- Linux Ubuntu 22.04LTS
 
 ## Installation
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/ngoxuansy30082002/SDN_LoadBalancing.git
+    cd SDN_LoadBalancing
     ```
 
 2. Install the required dependencies:
@@ -48,11 +48,12 @@ This project implements a Load Balancing solution using Mininet and Ryu Controll
 
 3. Set up Mininet and Ryu Controller following their respective installation guides:
     - [Mininet Installation Guide](http://mininet.org/download/)
-    - [Ryu Controller Installation Guide](https://osrg.github.io/ryu/)
-
+    - [Ryu Controller Installation Guide](https://ryu.readthedocs.io/en/latest/getting_started.html)
 ## Usage
 
-### Starting the Mininet Topology
+### Scenario 1: With Load Balancing
+
+#### Starting the Mininet Topology
 
 1. Navigate to the `mininet` directory:
     ```bash
@@ -61,10 +62,10 @@ This project implements a Load Balancing solution using Mininet and Ryu Controll
 
 2. Run the Mininet topology script:
     ```bash
-    sudo python your_topology_script.py
+    sudo python your_topology_script_with_lb.py
     ```
 
-### Running the Ryu Controller
+#### Running the Ryu Controller with Load Balancing
 
 1. Navigate to the `lb_core` directory:
     ```bash
@@ -76,9 +77,35 @@ This project implements a Load Balancing solution using Mininet and Ryu Controll
     ryu-manager your_lb_app.py
     ```
 
+### Scenario 2: Without Load Balancing
+
+#### Starting the Mininet Topology
+
+1. Navigate to the `mininet` directory:
+    ```bash
+    cd mininet
+    ```
+
+2. Run the Mininet topology script:
+    ```bash
+    sudo python your_topology_script_without_lb.py
+    ```
+
+#### Running the Ryu Controller without Load Balancing
+
+1. Navigate to the `lb_core` directory:
+    ```bash
+    cd ../lb_core
+    ```
+
+2. Start the Ryu Controller without the load balancing application:
+    ```bash
+    ryu-manager your_non_lb_app.py
+    ```
+
 ### Generating Traffic and Viewing Results
 
-1. Once Mininet and Ryu Controller are running, you can start generating traffic to test the load balancing.
+1. Once Mininet and Ryu Controller are running, you can start generating traffic to test the scenarios.
 2. Scripts or commands to generate traffic should be located in the `tb` directory or described here.
 3. View the results in the `result` directory after the simulation.
 
