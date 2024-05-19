@@ -69,11 +69,11 @@ This project implements a Load Balancing solution using Mininet and Ryu Controll
 
 2. Run the Mininet topology script:
 
-    2.1 If you want automated performance testing with the iperf3:
+    2.1. If you want automated performance testing with the iperf3:
     ```bash
     sudo python3 auto_iperf.py
     ```
-    2.2 If you want to test performance manually with your own tool:
+    2.2. If you want to test performance manually with your own tool:
     ```bash
     sudo python3 manual_test.py
     ```
@@ -101,11 +101,11 @@ This project implements a Load Balancing solution using Mininet and Ryu Controll
 
 2. Run the Mininet topology script:
     
-    2.1 If you want automated performance testing with the iperf3:
+    2.1. If you want automated performance testing with the iperf3:
     ```bash
     sudo python3 auto_iperf.py
     ```
-    2.2 If you want to test performance manually with your own tool:
+    2.2. If you want to test performance manually with your own tool:
     ```bash
     sudo python3 manual_test.py
     ```
@@ -115,25 +115,24 @@ This project implements a Load Balancing solution using Mininet and Ryu Controll
 1. Once Mininet and Ryu Controller are running, you can start generating traffic to test the scenarios.
 2. Our sample traffic generation scripts are located in the `tb` directory.
 3. Simulation results are saved in the `result` directory.
+4. Instructions for generating http traffic:
+    4.1. In mininet environment:
+    ```bash
+    xterm h1 h2 h3 h4 h5 h6 h7
+    ```
+    4.2. In h1,h2,h3's command window:
+    ```bash
+    python3 SDN_LoadBalancing/tb/tb_http/sv.py
+    ```
+    4.3. In h4,h5,h6,h7's command window:
+     ```bash
+    python3 SDN_LoadBalancing/tb/tb_http/cl.py
+    ```
 
 ## Results
 
-Results of the simulations, including logs and performance metrics, are stored in the `result` directory. Detailed analysis of the results can be found in the result files.
-
-## Contributing
-
-If you would like to contribute to this project, please fork the repository and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-
-- Mininet Team for the network emulation tool.
-- Ryu SDN Framework for providing the controller.
-- Any other acknowledgements...
+Results of the simulations, including logs and performance metrics, performance chart are stored in the `result` directory. Detailed analysis of the results can be found in the result files.
 
 ## Contact
 
-For any questions or inquiries, please contact [your email or contact information].
+For any questions or inquiries, please contact [ngoxuansy30082002@gmail.com](mailto:ngoxuansy30082002@gmail.com).

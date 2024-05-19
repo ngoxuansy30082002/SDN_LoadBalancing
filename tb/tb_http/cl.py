@@ -6,7 +6,7 @@ import argparse
 
 def main():
 
-    command = f'wrk -t 4 -c 100 -d 20s -s Project/tb/tb_http/test.lua --latency "http://10.0.0.100:9000/demo"'
+    command = f'wrk -t 4 -c 100 -d 20s -s SDN_LoadBalancing/tb/tb_http/test.lua --latency "http://10.0.0.100:9000/demo"'
     result = subprocess.run(command, shell=True,
                             capture_output=True, text=True)
     print(f"Result for port :\n{result.stdout}")
