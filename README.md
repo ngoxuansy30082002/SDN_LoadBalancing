@@ -126,11 +126,11 @@ This project implements a Load Balancing solution using Mininet and Ryu Controll
     ```
     4.2. In h1,h2,h3's command window:
     ```bash
-    python3 SDN_LoadBalancing/tb/tb_http/sv.py
+    python3 tb/tb_http/sv.py
     ```
     4.3. In h4,h5,h6,h7's command window:
      ```bash
-    python3 SDN_LoadBalancing/tb/tb_http/cl.py
+    python3 tb/tb_http/cl.py
     ```
 
 ## Results
