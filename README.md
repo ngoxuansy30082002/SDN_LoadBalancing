@@ -80,35 +80,41 @@ This project implements a Load Balancing solution using Mininet and Ryu Controll
 
 ### Scenario 2: Without Load Balancing
 
-#### Starting the Mininet Topology
-
-1. Navigate to the `mininet` directory:
-    ```bash
-    cd mininet
-    ```
-
-2. Run the Mininet topology script:
-    ```bash
-    sudo python your_topology_script_without_lb.py
-    ```
-
 #### Running the Ryu Controller without Load Balancing
 
 1. Navigate to the `lb_core` directory:
     ```bash
-    cd ../lb_core
+    cd lb_core
     ```
 
 2. Start the Ryu Controller without the load balancing application:
     ```bash
-    ryu-manager your_non_lb_app.py
+    ryu-manager no_lb_final.py
+    ```
+
+#### Starting the Mininet Topology
+
+1. Navigate to the `mininet` directory:
+    ```bash
+    cd ../mininet
+    ```
+
+2. Run the Mininet topology script:
+    
+    2.1 If you want automated performance testing with the iperf3:
+    ```bash
+    sudo python3 auto_iperf.py
+    ```
+    2.2 If you want to test performance manually with your own tool:
+    ```bash
+    sudo python3 manual_test.py
     ```
 
 ### Generating Traffic and Viewing Results
 
 1. Once Mininet and Ryu Controller are running, you can start generating traffic to test the scenarios.
-2. Scripts or commands to generate traffic should be located in the `tb` directory or described here.
-3. View the results in the `result` directory after the simulation.
+2. Our sample traffic generation scripts are located in the `tb` directory.
+3. Simulation results are saved in the `result` directory.
 
 ## Results
 
